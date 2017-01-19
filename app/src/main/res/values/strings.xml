@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SinaStorage-SDK-Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="request_result">请求结果：</string>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="separator_background">#efefef</color>
+    <color name="list_cell_default_background">#ffffff</color>
+    <color name="list_cell_pressed_background">#ff0000</color>
+
+</resources>

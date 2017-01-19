@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnimatorDemo/AnimatorDemo.iml" filepath="$PROJECT_DIR$/AnimatorDemo/AnimatorDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageLoaderDemo/ImageLoaderDemo.iml" filepath="$PROJECT_DIR$/ImageLoaderDemo/ImageLoaderDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tangcco170101_Sina.iml" filepath="$PROJECT_DIR$/Tangcco170101_Sina.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebViewDemo/WebViewDemo.iml" filepath="$PROJECT_DIR$/WebViewDemo/WebViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebViewFrmo/WebViewFrmo.iml" filepath="$PROJECT_DIR$/WebViewFrmo/WebViewFrmo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragment01/fragment01.iml" filepath="$PROJECT_DIR$/fragment01/fragment01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcplayer/jcplayer.iml" filepath="$PROJECT_DIR$/jcplayer/jcplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" filepath="$PROJECT_DIR$/jcvideoplayer-lib/jcvideoplayer-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttp/okhttp.iml" filepath="$PROJECT_DIR$/okhttp/okhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qclouddemo/qclouddemo.iml" filepath="$PROJECT_DIR$/qclouddemo/qclouddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tengxunyun/tengxunyun.iml" filepath="$PROJECT_DIR$/tengxunyun/tengxunyun.iml" />
+    </modules>
+  </component>
+</project>
