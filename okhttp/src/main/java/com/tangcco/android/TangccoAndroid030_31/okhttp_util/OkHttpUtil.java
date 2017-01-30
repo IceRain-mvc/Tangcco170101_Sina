@@ -12,7 +12,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by Administrator on 2016/7/1 0001.
+ * Created by cuilibao on 2016/7/1 0001.
  */
 public class OkHttpUtil {
     public static String http_post(String url, Map<String, String> params) {

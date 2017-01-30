@@ -1,1 +1,1 @@
-include ':app', ':qclouddemo', ':tengxunyun', ':AnimatorDemo', ':fragment01', ':ImageLoaderDemo', ':jcvideoplayer-lib', ':jcplayer', ':WebViewFrmo', ':okhttp', ':WebViewDemo'
+include ':app', ':qclouddemo', ':tengxunyun', ':AnimatorDemo', ':fragment01', ':ImageLoaderDemo', ':jcvideoplayer-lib', ':jcplayer', ':okhttp', ':WebViewDemo'
