@@ -51,6 +51,10 @@ public class OkHttpClientManager {
         mGson = new Gson();
     }
 
+    /**
+     * 初始化OkHttpClientManager对象
+     * @return
+     */
     public static OkHttpClientManager getInstance() {
         if (mInstance == null) {
             synchronized (OkHttpClientManager.class) {
@@ -356,10 +360,22 @@ public class OkHttpClientManager {
 
     // *************对外公布的方法************
 
+    /**
+     * 同步请求 get
+     * @param url
+     * @return
+     * @throws IOException
+     */
     public static Response getAsyn(String url) throws IOException {
         return getInstance()._getAsyn(url);
     }
 
+    /**
+     * 同步请求返回字符串 get
+     * @param url
+     * @return
+     * @throws IOException
+     */
     public static String getAsString(String url) throws IOException {
         return getInstance()._getAsString(url);
     }
@@ -427,6 +443,12 @@ public class OkHttpClientManager {
         getInstance()._displayImage(view, url, -1);
     }
 
+    /**
+     * 下载
+     * @param url
+     * @param destDir
+     * @param callback
+     */
     public static void downloadAsyn(String url, String destDir,
                                     ResultCallback callback) {
         getInstance()._downloadAsyn(url, destDir, callback);
@@ -565,6 +587,10 @@ public class OkHttpClientManager {
         return new Request.Builder().url(url).post(requestBody).build();
     }
 
+    /**
+     * 回调
+     * @param <T>返回类型
+     */
     public static abstract class ResultCallback<T> {
         Type mType;
 
