@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tangcco.TangccoAndroid026_37">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <!--电话监听所需要的权限-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--注册Service对象-->
+        <service android:name=".service.MyService1">
+        </service>]
+        <service android:name=".service.MyService2">
+        </service>
+
+        <service android:name=".service.MyService3">
+            <intent-filter>
+                <action android:name="com.tangcco.service.DOWNLOADSERVCIE"/>
+            </intent-filter>
+        </service>
+        <service android:name=".service.MyService4">
+            <intent-filter>
+                <action android:name="com.tangcco.service.DOWNLOADSERVCIE4"/>
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".receiver.MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.tangcco.receiver.MYRECEIVER"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receiver.BootComplateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
